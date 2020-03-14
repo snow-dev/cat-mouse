@@ -1,0 +1,25 @@
+.board {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ee4655;
+    display: grid;
+
+    place-content: space-between;
+
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+}
+
+.cell {
+    width: 95px;
+    height: 95px;
+    padding: 2px;
+    display: block;
+    float: right;
+    background-color: #ee4655;
+}
+
+.cell > img {
+    width: 90px;
+
+}
